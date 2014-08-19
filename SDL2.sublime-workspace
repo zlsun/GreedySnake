@@ -1,0 +1,1681 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sdl",
+				"SDL2/	folder"
+			],
+			[
+				"in",
+				"inc	#include \"…\""
+			],
+			[
+				"CXX",
+				"CXXFLAGS"
+			],
+			[
+				"Uin",
+				"Uint32"
+			],
+			[
+				"runt",
+				"run_target"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"des",
+				"destroyTexture"
+			],
+			[
+				"SDL",
+				"SDLTexture"
+			],
+			[
+				"SDL_D",
+				"SDL_DestroyTexture"
+			],
+			[
+				"SDL_",
+				"SDL_Texture"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"ac",
+				"actived"
+			],
+			[
+				"Ui",
+				"Uint32"
+			],
+			[
+				"int",
+				"interval"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"inc",
+				"inc	#include \"…\""
+			],
+			[
+				"Uint",
+				"Uint8"
+			],
+			[
+				"SDL_g",
+				"SDL_GetTextureAlphaMod"
+			],
+			[
+				"SDL_s",
+				"SDL_SetTextureAlphaMod"
+			],
+			[
+				"te",
+				"tex"
+			],
+			[
+				"U",
+				"Uint8"
+			],
+			[
+				"SDL_R",
+				"SDL_Renderer"
+			],
+			[
+				"dcs",
+				"drawCurves"
+			],
+			[
+				"SD",
+				"SDLPoint"
+			],
+			[
+				"EA",
+				"EAlignHCenter"
+			],
+			[
+				"EV",
+				"EVAlignBottom"
+			],
+			[
+				"EH",
+				"EHAlignRight"
+			],
+			[
+				"EVAlign",
+				"EVAlignTop"
+			],
+			[
+				"Ev",
+				"EVAlignTop"
+			],
+			[
+				"st",
+				"start_time"
+			],
+			[
+				"ip",
+				"inputContext"
+			],
+			[
+				"stat",
+				"start_time"
+			],
+			[
+				"incex",
+				"inc-stdexcept	include header"
+			],
+			[
+				"windo",
+				"window_count"
+			],
+			[
+				"init",
+				"initalized"
+			],
+			[
+				"SC",
+				"SCREEN_X"
+			],
+			[
+				"qui",
+				"quitSDL"
+			],
+			[
+				"ini",
+				"initalized"
+			],
+			[
+				"incmip",
+				"inc-iomanip	include header"
+			],
+			[
+				"drat",
+				"drawTexture"
+			],
+			[
+				"fs",
+				"fontSize"
+			],
+			[
+				"loa",
+				"loadText"
+			],
+			[
+				"ER",
+				"ERecord"
+			],
+			[
+				"up",
+				"updateRecord"
+			],
+			[
+				"SDL_Q",
+				"SDL_QuitEvent"
+			],
+			[
+				"fil",
+				"file"
+			],
+			[
+				"dat",
+				"dataPath"
+			],
+			[
+				"s",
+				"std::string"
+			],
+			[
+				"string",
+				"std::string"
+			],
+			[
+				"SDLC",
+				"SDLColor"
+			],
+			[
+				"icn",
+				"inc	#include <…>"
+			],
+			[
+				"SDLR",
+				"SDLRect"
+			],
+			[
+				"load",
+				"loadText"
+			],
+			[
+				"quer",
+				"query"
+			],
+			[
+				"SDLT",
+				"SDLTexturePtr"
+			],
+			[
+				"type",
+				"typedef"
+			],
+			[
+				"SDL_t",
+				"SDL_Texture"
+			],
+			[
+				"Ep",
+				"EPause"
+			],
+			[
+				"pau",
+				"pause"
+			],
+			[
+				"ED",
+				"EDown"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"SDL_QU",
+				"SDL_QueryTexture"
+			],
+			[
+				"dr",
+				"drawDie"
+			],
+			[
+				"dra",
+				"drawMenu"
+			],
+			[
+				"Ed",
+				"EDie"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"star",
+				"start"
+			],
+			[
+				"incma",
+				"inc-cmath	include header"
+			],
+			[
+				"font",
+				"fontFile"
+			],
+			[
+				"eat",
+				"eaten"
+			],
+			[
+				"dir",
+				"diretion"
+			],
+			[
+				"Bloc",
+				"BLOCK_WIDTH"
+			],
+			[
+				"E",
+				"ERight"
+			],
+			[
+				"B",
+				"BLOCK_SIZE"
+			],
+			[
+				"BLo",
+				"BLOCK_WIDTH"
+			],
+			[
+				"on",
+				"onIdle"
+			],
+			[
+				"se",
+				"setTimeout"
+			],
+			[
+				"tim",
+				"timeout"
+			],
+			[
+				"bl",
+				"blockH"
+			],
+			[
+				"SDLCO",
+				"SDL_Color"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"SDLIn",
+				"SDL_IntersectRect"
+			],
+			[
+				"inter",
+				"intersect"
+			],
+			[
+				"SDL_RenderDrawR",
+				"SDL_RenderDrawRect"
+			],
+			[
+				"SDL_RenderDrawL",
+				"SDL_RenderDrawLine"
+			],
+			[
+				"SDL_RenderDrawP",
+				"SDL_RenderDrawPoints"
+			],
+			[
+				"SDL_RDP",
+				"SDL_RenderDrawPoint"
+			],
+			[
+				"Test",
+				"TestWindow"
+			],
+			[
+				"T",
+				"TestWindow"
+			],
+			[
+				"SDL_P",
+				"SDL_RenderPresent"
+			],
+			[
+				"clea",
+				"clear"
+			],
+			[
+				"run",
+				"runtime_error"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"incste",
+				"inc-stdexcept	include header"
+			],
+			[
+				"tex",
+				"textures"
+			],
+			[
+				"text",
+				"texture"
+			],
+			[
+				"SDLW",
+				"SDLWindow"
+			],
+			[
+				"red",
+				"renderer"
+			],
+			[
+				"render",
+				"renderer"
+			],
+			[
+				"Le",
+				"Lesson5"
+			],
+			[
+				"fon",
+				"fontFile"
+			],
+			[
+				"rend",
+				"renderer"
+			],
+			[
+				"reder",
+				"renderTexture"
+			],
+			[
+				"cli",
+				"clips"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"_",
+				"_T"
+			],
+			[
+				"cap",
+				"caption"
+			],
+			[
+				"Con",
+				"Consolas"
+			],
+			[
+				"whi",
+				"while	While loop"
+			],
+			[
+				"jq",
+				"jQuery	jQuery"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"html",
+				"html"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"markdown_",
+				"markdown_preview"
+			],
+			[
+				"mar",
+				"markdown"
+			],
+			[
+				"ctr",
+				"ctrl+k"
+			],
+			[
+				"she",
+				"shell_cmd"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"A6E22e",
+				"a6e22e"
+			],
+			[
+				"re",
+				"reg header	Windows Registry Editor Version 5.00"
+			],
+			[
+				"ctrl",
+				"ctrl+t"
+			],
+			[
+				"fal",
+				"False"
+			],
+			[
+				"title",
+				"title	RST"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"img",
+				"img	HTML/Element"
+			],
+			[
+				"t",
+				"this	<?php $this->… ?>"
+			],
+			[
+				"h",
+				"here"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"re",
+				"Build: Rebuild"
+			],
+			[
+				"r",
+				"Build: Rebuild"
+			],
+			[
+				"reb",
+				"Build: Rebuild"
+			],
+			[
+				"cl",
+				"Build: Clean"
+			],
+			[
+				"br",
+				"Build: Rebuild"
+			],
+			[
+				"c",
+				"Build: Clean"
+			],
+			[
+				"cll",
+				"Origami: Clone File to Pane on the Left"
+			],
+			[
+				"clea",
+				"Build: Clean"
+			],
+			[
+				"bb",
+				"Build: Build"
+			],
+			[
+				"bui",
+				"Build: Build"
+			],
+			[
+				"makcl",
+				"Build: make clean"
+			],
+			[
+				"sstyle",
+				"SublimeAStyleFormatter: Format Current File"
+			],
+			[
+				"bu",
+				"Build: make clean"
+			],
+			[
+				"b",
+				"Build: make clean"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"clean",
+				"Build: make clean"
+			],
+			[
+				"bucl",
+				"Build: make clean"
+			],
+			[
+				"buic",
+				"Build: make clean"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ttb",
+				"View: Toggle Tabs"
+			],
+			[
+				"tmnm",
+				"View: Toggle Minimap"
+			],
+			[
+				"t",
+				"View: Toggle Menu"
+			],
+			[
+				"tm",
+				"View: Toggle Menu"
+			],
+			[
+				"ttab",
+				"View: Toggle Tabs"
+			],
+			[
+				"tmnma",
+				"View: Toggle Minimap"
+			],
+			[
+				"tmn",
+				"View: Toggle Menu"
+			],
+			[
+				"tsb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"tom",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"File: Refresh"
+			],
+			[
+				"sspt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"cp",
+				"Color picker"
+			],
+			[
+				"reg",
+				"Reg Replace: RegEx Input Sequencer"
+			],
+			[
+				"z",
+				"z:AAAPackageDev: New Syntax Definition"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"stproje",
+				"STProjectMaker: Create project"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssc",
+				"Set Syntax: C++"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"sste",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pd",
+				"Package Control: Disable Package"
+			],
+			[
+				"smm",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"sme",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"sm",
+				"Convert Case: Smart Title Case"
+			],
+			[
+				"smt",
+				"Convert Case: Smart Title Case"
+			],
+			[
+				"ru",
+				"Build: Run"
+			],
+			[
+				"md",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mp",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mdp",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"st",
+				"Show TODOs: Open files only"
+			],
+			[
+				"col",
+				"Color picker"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"ssrs",
+				"Set Syntax: reStructuredText"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sav",
+				"Sublime Text API Helper: sublime.View.*"
+			],
+			[
+				"sshm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"apiv",
+				"Sublime Text API Helper: sublime.View.*"
+			],
+			[
+				"sto",
+				"Show TODOs: Open files only"
+			],
+			[
+				"api",
+				"Sublime Text API Helper: sublime_plugin.TextCommand.*"
+			],
+			[
+				"TODO",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"win",
+				"Sublime Text API Helper: sublime.Window.*"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"user",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"aph",
+				"Sublime Text API Helper: *"
+			],
+			[
+				"pcu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"h",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"sahs.v",
+				"Sublime Text API Helper: sublime.View.*"
+			],
+			[
+				"hea",
+				"Header Creator: Create/update Header and keyword files"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				":q",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"cas",
+				"CAside: Synchronize"
+			],
+			[
+				"Snippet: ",
+				"Snippet: class-..-(class)"
+			],
+			[
+				"ssc+",
+				"Set Syntax: C++"
+			],
+			[
+				"f",
+				"Format Code"
+			],
+			[
+				"rpr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"ssjo",
+				"Set Syntax: JSON"
+			],
+			[
+				"srpr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"ss",
+				"Set Syntax: Python"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"fo",
+				"Format Code"
+			],
+			[
+				"s",
+				"Set Syntax: HTML"
+			],
+			[
+				"sh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ap",
+				"API-Completion-Package: Settings – User"
+			],
+			[
+				"pcd",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"sublime.version()",
+			"sublime.vers",
+			"view.settings().get('show_panel_on_build')",
+			"Tag.tag_lint.Tag.view_is_xml()",
+			"Tag.view_is_xml()",
+			"view.settings().get('is_xml')",
+			"dir({})",
+			"view.layout_to_text(\"12.12\")",
+			"view.layout_to_text(\"12\")",
+			"view.layout_to_text(12)",
+			"view.layout_to_text(12,12)",
+			"view.layout_to_text.__doc__",
+			"view.em_width.__doc__",
+			"view.em_width()",
+			"view.text_point.__doc__",
+			"view.text_point(1,1)",
+			"view.text_point(1,10)",
+			"view.text_point(1,1)",
+			"view.text_point()",
+			"view.size()",
+			"view.settings().get('result_regions')",
+			"view.scope_name(view.sel()[0].a)",
+			"dir(view)",
+			"view.run_command(\"exit_insert_mode\")",
+			"view.settings().get('command_mode')",
+			"view.settings().set('command_mode',True)",
+			"view.settings().get('command_mode')",
+			"view.scope_name(view.sel()[0].a)",
+			"view.scope_name()",
+			"dir(view)",
+			"view.scope_name(1)",
+			"view.scope_name()",
+			"view.scope_name",
+			"dir(view)",
+			"view.scope",
+			"sys.path",
+			"sys.modules",
+			"str(sys.modules)[i:i+12]",
+			"i=str(sys.modules).find('Lib')",
+			"str(sys.modules).find('Lib')",
+			"str(sys.modules).find('yaml')",
+			"sys.modules['yaml']",
+			"sys.modules",
+			"dir(sys)",
+			"import sys",
+			"dir(sys)",
+			"sys.path",
+			"import sys",
+			"s.get(\"todo_results\")",
+			"s=view.settings()",
+			"view.settings()",
+			"dir(view)",
+			"view.run_command('test_text')",
+			"window.run_command('test_window')",
+			"view.run_command('test_text')",
+			"window.run_command('test_window')",
+			"view.run_command('test_text')",
+			"window.run_command('test_window')",
+			"sublime.run_command('test_window')",
+			"view.run_command('test_text')",
+			"view.run_command('test')",
+			"sublime.run_command('test')",
+			"sublime.run_command(test)",
+			"run_command(test)",
+			"test"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/desktop/working/SDL2/include/SDLTimer.h。",
+		"/D/desktop/working/SDL2/src/GreedySnake-GameWindow.h",
+		"/D/desktop/working/SDL2/Makefile",
+		"/D/desktop/working/SDL2/common.mk",
+		"/D/desktop/working/opengl/common.mk",
+		"/D/desktop/working/SDL2/include/SDLRect.h",
+		"/D/desktop/working/SDL2/include/SDLPoint.h",
+		"/D/desktop/working/SDL2/include/SDLColor.h",
+		"/D/desktop/working/SDL2/include/SDLRenderer.h",
+		"/D/desktop/working/SDL2/include/SDLTexture.h",
+		"/D/desktop/working/SDL2/include/SDLWindow.h",
+		"/D/desktop/working/SDL2/include/SDLError.h",
+		"/D/desktop/working/SDL2/src/main.cpp",
+		"/D/desktop/working/SDL2/src/GameWindow.h",
+		"/D/desktop/working/SDL2/src/SDLWindow.cpp",
+		"/D/desktop/working/SDL2/src/.lessons/SDLTimer.cpp。",
+		"/D/desktop/working/SDL2/src/SDLRenderer.cpp",
+		"/D/desktop/working/SDL2/src/SDLColor.cpp",
+		"/D/desktop/working/SDL2/src/SDLTexture.cpp",
+		"/D/desktop/working/SDL2/src/SDLRect.cpp",
+		"/D/desktop/working/SDL2/src/SDLPoint.cpp",
+		"/D/MinGW/include/SDL2/SDL_loadso.h",
+		"/D/MinGW/include/SDL2/SDL_power.h",
+		"/D/MinGW/include/SDL2/SDL_pixels.h",
+		"/D/MinGW/include/SDL2/SDL_assert.h",
+		"/D/desktop/working/SDL2/res/Lesson2/background.bmp",
+		"/D/desktop/working/SDL2/res/Lesson2/image.bmp",
+		"/D/desktop/working/SDL2/SDL2.sublime-project",
+		"/D/desktop/working/SDL2/include/log.h",
+		"/D/desktop/working/string/string.h",
+		"/F/灼眼的夏娜/第三季/[SumiSora&Ktxp][Shakugan_No_Shana_III][01][GB][720p].chn.ass",
+		"/D/desktop/working/SDL2/inc/log.h",
+		"/D/MinGW/include/SDL2/SDL_render.h",
+		"/D/MinGW/include/SDL2/SDL_timer.h",
+		"/D/MinGW/include/SDL2/SDL_messagebox.h",
+		"/D/MinGW/include/SDL2/SDL_mixer.h",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.880.4924/HZ$D.880.4928/Mandelbrot/main.cpp",
+		"/D/desktop/28_per-pixel_collision_detection/5.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.276.4981/HZ$D.276.4982/32_text_input_and_clipboard_handling/32_text_input_and_clipboard_handling.cpp",
+		"/D/desktop/28_per-pixel_collision_detection/3.cpp",
+		"/D/desktop/28_per-pixel_collision_detection/4.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.975.3327/HZ$D.975.3329/38_particle_engines/38_particle_engines.cpp",
+		"/D/desktop/28_per-pixel_collision_detection/2.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.975.3322/HZ$D.975.3323/22_timing/22_timing.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.975.3324/HZ$D.975.3325/21_sound_effects_and_music/21_sound_effects_and_music.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.975.3318/HZ$D.975.3321/30_scrolling/30_scrolling.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.975.3309/HZ$D.975.3311/28_per-pixel_collision_detection/28_per-pixel_collision_detection.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.975.3304/HZ$D.975.3306/45_timer_callbacks/45_timer_callbacks.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.975.3307/HZ$D.975.3308/40_texture_manipulation/40_texture_manipulation.cpp",
+		"/D/desktop/bof/bof/testsc.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.070.470/HZ$D.070.471/bof/toto.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.914.4409/HZ$D.914.4410/SDL-2.0.1-8054/android-project/src/org/libsdl/app/SDLActivity.java",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.914.4409/HZ$D.914.4411/SDL-2.0.1-8054/android-project/src/org/libsdl/app/SDLActivity.java",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.875/SDL_draw-1.2.13/src/Draw_Circle.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.874/SDL_draw-1.2.13/src/Draw_HLine.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.876/SDL_draw-1.2.13/src/Draw_Line.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.877/SDL_draw-1.2.13/src/Draw_Rect.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.878/SDL_draw-1.2.13/src/Draw_VLine.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.879/SDL_draw-1.2.13/src/SDL_draw.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.880/SDL_draw-1.2.13/src/Draw_Round.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.561.873/HZ$D.561.882/SDL_draw-1.2.13/sdldrawtest.c",
+		"/D/MinGW/bin/sdl2-config",
+		"/D/desktop/working/SDL2/src/Lesson1.cpp",
+		"/D/MinGW/include/SDL2/SDL_test_random.h",
+		"/D/MinGW/include/SDL2/SDL_test.h",
+		"/D/MinGW/include/SDL2/SDL_test_font.h",
+		"/D/MinGW/include/SDL2/SDL_test_fuzzer.h",
+		"/D/MinGW/include/SDL2/SDL_gesture.h",
+		"/D/MinGW/include/SDL2/SDL_test_log.h",
+		"/D/MinGW/include/SDL2/SDL_version.h",
+		"/D/MinGW/include/SDL2/SDL_audio.h",
+		"/D/desktop/working/SDL2/inc/SDLRenderer.h",
+		"/D/desktop/working/SDL2/inc/SDLTexture.h",
+		"/D/MinGW/include/SDL2/SDL_filesystem.h",
+		"/D/MinGW/include/sys/file.h",
+		"/D/MinGW/include/SDL2/SDL_image.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/Samples/CameraTrack/include/CameraTrack.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/Samples/Character/include/CharacterSample.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/Samples/Character/include/SinbadCharacterController.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/Samples/Lighting/include/Lighting.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/Samples/Lighting/src/Lighting.cpp",
+		"/D/Boost/include/boost-1_55/boost/xpressive/traits/detail/c_ctype.hpp",
+		"/D/MinGW/include/ctype.h",
+		"/D/MinGW/include/_mingw.h",
+		"/D/Boost/include/boost-1_55/boost/algorithm/cxx14/is_permutation.hpp",
+		"/D/MinGW/lib/gcc/mingw32/4.8.1/include/stddef.h",
+		"/D/wamp/www/testmysql.php",
+		"/D/MinGW/include/SDL2/SDL.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/Samples/ParticleFX/src/ParticleFX.cpp",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/Samples/ParticleFX/include/ParticleFX.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/media/particle/Examples.particle",
+		"/F/海贼王/a.py",
+		"/D/desktop/a.py",
+		"/D/desktop/b.py",
+		"/D/Ogre/Ogre VC10 AppWizard/templates/1033/src/BaseApplication.cpp",
+		"/D/Ogre/Ogre VC10 AppWizard/scripts/1033/default.js",
+		"/D/Ogre/Ogre VC10 AppWizard/default.vcxproj",
+		"/D/Ogre/Ogre VC10 AppWizard/default.props",
+		"/D/config.xml",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/include/OGRE/asm_math.h",
+		"/D/Ogre/OgreSDK_vc10_v1-9-0/include/OGRE/OgreMath.h",
+		"/E/tmp/tmp.s",
+		"/D/desktop/SDL2-2.0.1/test/testnative.h",
+		"/D/desktop/SDL2-2.0.1/test/testnative.c",
+		"/D/desktop/SDL2-2.0.1/test/loopwave.c",
+		"/D/desktop/SDL2-2.0.1/test/aclocal.m4",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.107.3467/HZ$D.107.3477/src/main.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.107.3467/HZ$D.107.3476/src/SurfaceClass.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.107.3467/HZ$D.107.3474/src/mole.cpp",
+		"/D/MinGW/include/SDL2/SDL_video.h",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.107.3467/HZ$D.107.3472/src/ButtonClass.cpp",
+		"/D/goagent-goagent-26fe744/local/proxy.ini",
+		"/D/desktop/working/SDL2/inc/SDLWindow.h",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.393.518/HZ$D.393.521/SDL_draw-1.2.13/include/SDL_draw.h",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.393.518/HZ$D.393.522/SDL_draw-1.2.13/src/SDL_draw.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.393.518/HZ$D.393.524/SDL_draw-1.2.13/src/Draw_Pixel.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.393.518/HZ$D.393.523/SDL_draw-1.2.13/src/Draw_Line.c",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.393.518/HZ$D.393.525/SDL_draw-1.2.13/src/Draw_VLine.c",
+		"/D/MinGW/include/SDL2/SDL_mouse.h",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.336.4230/HZ$D.336.4234/我的贪吃蛇/我的贪吃蛇.cpp",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.725.894/HZ$D.725.897/方块回归/MAP.h",
+		"/C/Users/Administrator/AppData/Local/Temp/HZ$D.725.894/HZ$D.725.896/方块回归/方块回归.cpp",
+		"/D/desktop/game/game.c",
+		"/D/desktop/game/game.vcproj",
+		"/D/desktop/working/SDL2/inc/SDLRect.h",
+		"/D/desktop/working/SDL2/inc/SDLPoint.h",
+		"/D/desktop/working/SDL2/inc/SDLColor.h",
+		"/D/desktop/working/SDL2/inc/GameWindow.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>",
+			"D:\\chrome\\User Data\\Default\\Extensions\\mcceagdollnkjlogmdckgjakjapmkdjf\\4.0.0.2_0\\DownloadMaster\\scripts",
+			"<project>",
+			"<open files>",
+			"<project>",
+			"D:\\Sublime Text 3\\Data\\Packages\\Default",
+			"<project>",
+			"D:\\Sublime Text 3\\Data\\Packages\\Default",
+			"<project>",
+			"<project>,*.sublime-keymap",
+			"<project>",
+			"D:\\Sublime Text 3\\Data\\Packages\\BracketHighlighter",
+			"<project>",
+			"D:\\Sublime Text 3\\Data\\Packages\\Vintageous",
+			"D:\\Sublime Text 3\\Data\\Packages\\AAAPackageDev",
+			"<project>",
+			"D:\\Sublime Text 3\\Data\\Packages\\C++ Snippets",
+			"D:\\Sublime Text 3\\Data\\Packages\\CodeFormatter",
+			"<project>",
+			"D:\\Sublime Text 3\\Data\\Packages\\SideBarEnhancements\\SideBar.py",
+			"<project>",
+			"D:\\Sublime Text 3\\Data\\Packages\\SideBarEnhancements",
+			"D:\\Sublime Text 3\\Data\\Packages\\JsMinifier",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"source_dirs",
+			"$(",
+			"\"zlog.h\"",
+			"log",
+			"inc",
+			"yy",
+			"xx",
+			"yy",
+			"xx",
+			"SDLTexturePtr",
+			"tex,",
+			"Tex",
+			"tex",
+			"38_particle_engines/",
+			"21_sound_effects_and_music/",
+			"cnt",
+			"x",
+			"SDL_SetWindowFullscreen",
+			"ANIM_JUMP_START",
+			"mVerticalVelocity",
+			"mKeyDirection",
+			"mAnims",
+			"mFadingIn",
+			"setTopAnimation",
+			"Align",
+			"align",
+			"EHAlignRight",
+			"other",
+			"iswctype",
+			"delay",
+			"factories",
+			"Event",
+			"SDL_WINDOWPOS_CENTERED",
+			"eaten",
+			"circle",
+			"&lt;",
+			"&amp;",
+			"&gt;",
+			"if",
+			"updateScore",
+			"quit",
+			"inline ",
+			"std::string",
+			"SDL_Point",
+			"SDL_Rect",
+			"SDL_Color",
+			"SDLTexturePtr",
+			"ren->",
+			"text",
+			"SDL_QueryTexture",
+			"SDL_Tex",
+			"Destory",
+			"destory",
+			"SDL_DestroyTexture",
+			"Destory",
+			"SDL_Destory",
+			"rcle",
+			"circle",
+			"fliter",
+			"snake.",
+			".x",
+			"TEST",
+			"TestWindow",
+			"i",
+			"std::",
+			"diretion",
+			"speed",
+			"Pause",
+			"SDL_Color",
+			"SDL_Co",
+			"int",
+			"Color",
+			"renderer",
+			"inline ",
+			"o.",
+			"RECT",
+			"_Point",
+			"Rect",
+			"int ",
+			"draw",
+			" SDLRect *clip",
+			"const SDLRect &clip",
+			"const ",
+			"e.",
+			"const",
+			"runtime_error",
+			"std::runtime_error",
+			"runtime_error",
+			"sdl_window",
+			"rdr",
+			"texture",
+			"renderTexture",
+			"std::",
+			"e",
+			"std::",
+			"pos",
+			"std::",
+			"ren",
+			"Win",
+			"win",
+			"std::",
+			"cmd_wind",
+			"VideoMode",
+			"SDL_Set",
+			"SDL_SetVideoMode",
+			"opengl",
+			"retreiveDownloadableFiles",
+			"PENDING_LOAD",
+			"Loading",
+			"NON_WEBS",
+			"website",
+			"\"(\"",
+			"ctrl+u",
+			"bits",
+			"opengl",
+			"alt+q",
+			"sort_l",
+			"ctrl+e",
+			"enter",
+			"(\\w*?\\.a)",
+			"sdk",
+			"CreateGLWindow",
+			"(\"[^\"]*\")",
+			"\"NeHe's 第一个多边形程序\"",
+			"(\"[^\"]*\")",
+			"\"[^\"]*\"",
+			"-l",
+			"ctrl+shift+r"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"<zlog.h>",
+			"y",
+			"<",
+			"&",
+			">",
+			"lib\\/\\1",
+			"_T(\\1)",
+			"_T(\\0)",
+			"\"], ",
+			"RST",
+			"\\1\\\\trst",
+			"\\1\\trst",
+			"\\1print(\\2)\\n",
+			"except \\1 as e:",
+			"except Exception as e",
+			"",
+			"5b0a",
+			"6167",
+			"ctrl+k",
+			"<",
+			"->",
+			"oj.h",
+			"\\n",
+			"s"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
+							"incomplete_sync": null,
+							"line_numbers": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"vintage_lines.line": 0,
+							"vintage_lines.lines": 0,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 124.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 124.0
+	},
+	"output.preferences_editor_help":
+	{
+		"height": 124.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "SDL2.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mac",
+				"SDL2\\src\\main.cpp"
+			],
+			[
+				"sdlp",
+				"SDL2\\src\\SDLPoint.cpp"
+			],
+			[
+				"g",
+				"SDL2\\inc\\GameWindow.h"
+			],
+			[
+				"ptext",
+				"Text\\Plain text.tmLanguage"
+			],
+			[
+				"aaa/aa",
+				"AAAPackageDev\\AAA.py"
+			],
+			[
+				"aaa/",
+				"AAAPackageDev\\Support\\API\\API.sublime-completions"
+			],
+			[
+				"aaa./",
+				"AAAPackageDev\\.gitignore"
+			],
+			[
+				"cmake",
+				"CMake\\CMake.tmLanguage"
+			],
+			[
+				"rstsni/wk",
+				"Restructured Text (RST) Snippets\\Default (Windows).sublime-keymap"
+			],
+			[
+				"c++/head",
+				"Better C++\\include-header.sublime-completions"
+			],
+			[
+				"javab",
+				"Java\\JavaC.sublime-build"
+			],
+			[
+				"color/moe",
+				"Color Scheme - Default\\Monokai Extended.tmTheme"
+			],
+			[
+				"user/c+",
+				"User\\C++.sublime-build"
+			],
+			[
+				"phpb",
+				"User\\PHP.sublime-build"
+			],
+			[
+				"tag",
+				"Tag\\tag_lint.py"
+			],
+			[
+				"bbs/set",
+				"BetterBuildSystem\\Preferences.sublime-settings"
+			],
+			[
+				"bb",
+				"BetterBuildSystem\\BetterBuidSystem.py"
+			],
+			[
+				"mipy",
+				"Makefile Improved\\Makefile Improved.py"
+			],
+			[
+				"pep8mn",
+				"Python PEP8 Autoformat\\Side Bar.sublime-menu"
+			],
+			[
+				"defmmn",
+				"Default\\Main.sublime-menu"
+			],
+			[
+				"regmne",
+				"REG\\Main.sublime-menu"
+			],
+			[
+				"km",
+				"KeymapManager\\KeymapManager.py"
+			],
+			[
+				"ojtm",
+				"soj_tmpl.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"tm",
+				"E:\\tmp\\tmp.sublime-project"
+			],
+			[
+				"p",
+				"D:\\Sublime Text 3\\Data\\Packages\\Packages.sublime-project"
+			],
+			[
+				"a",
+				"D:\\Sublime Text 3\\Data\\Packages\\AAAPackageDev\\AAAPackageDev.sublime-project"
+			],
+			[
+				"op",
+				"D:\\desktop\\working\\opengl\\opengl.sublime-project"
+			],
+			[
+				"u",
+				"D:\\desktop\\working\\uthread\\uthread.sublime-project"
+			],
+			[
+				"tmp",
+				"E:\\tmp\\tmp.sublime-project"
+			],
+			[
+				"o",
+				"E:\\tmp\\oj\\oj.sublime-project"
+			],
+			[
+				"wox",
+				"D:\\desktop\\working\\Wox\\Wox.sublime-project"
+			],
+			[
+				"v",
+				"E:\\Workspace\\eric4\\VisualAlgorithm\\VisualAlgorithm.sublime-project"
+			],
+			[
+				"",
+				"E:\\Workspace\\eric4\\VisibleAlgorithm\\VisibleAlgorithm.sublime-project"
+			],
+			[
+				"ma",
+				"D:\\desktop\\working\\matrix\\matrix.sublime-project"
+			],
+			[
+				"P",
+				"D:\\Sublime Text 3\\Projects\\Packages.sublime-project"
+			],
+			[
+				"t",
+				"D:\\Sublime Text 3\\Projects\\tmp.sublime-project"
+			],
+			[
+				"TMP",
+				"D:\\Sublime Text 3\\Projects\\tmp.sublime-project"
+			],
+			[
+				"tt",
+				"D:\\desktop\\working\\TicTacToe\\TicTacToe.sublime-project"
+			],
+			[
+				"ti",
+				"D:\\desktop\\working\\TicTacToe\\TicTacToe.sublime-project"
+			],
+			[
+				"oj",
+				"D:\\Sublime Text 3\\Projects\\oj.sublime-project"
+			],
+			[
+				"bb",
+				"D:\\Sublime Text 3\\Projects\\bbs.sublime-project"
+			],
+			[
+				"b",
+				"D:\\Sublime Text 3\\Projects\\bbs.sublime-project"
+			],
+			[
+				"d",
+				"D:\\Sublime Text 3\\Projects\\Default.sublime-project"
+			],
+			[
+				"ci",
+				"D:\\Sublime Text 3\\Projects\\SublimeCodeIntel.sublime-project"
+			],
+			[
+				"m",
+				"D:\\Sublime Text 3\\Projects\\tmp.sublime-project"
+			],
+			[
+				"de",
+				"D:\\Sublime Text 3\\Projects\\Default.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"swap"
+			]
+		],
+		"width": 560.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

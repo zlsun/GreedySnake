@@ -1,0 +1,16 @@
+{
+    "folders": [{
+        "follow_symlinks": true,
+        "path": "."
+    }, {
+        "follow_symlinks": true,
+        "path": "D:\\MinGW\\include\\SDL2"
+    }],
+    "settings":
+    {
+         "sublimegdb_workingdir": "${folder:${project_path:SDL2.exe}}",
+         // NOTE: You MUST provide --interpreter=mi for the plugin to work
+         "sublimegdb_commandline": "gdb --interpreter=cmd ./SDL2.exe"
+    }
+    
+}
