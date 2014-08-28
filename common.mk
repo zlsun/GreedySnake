@@ -66,7 +66,7 @@ $(build_dir)/%.d: $(src_dir)/%.cpp
 
 # Prevent make from generating dependencies when running 'make clean'
 ifneq ($(MAKECMDGOALS), clean)
-    -include $(dependences)
+	-include $(dependences)
 endif
 
 run: $(firstword $(targets))
