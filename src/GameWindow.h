@@ -23,9 +23,9 @@ const int BLOCK_HEIGHT  = SCREEN_HEIGHT / BLOCK_SIZE;
 const int MAX_TIMEOUT   = 300;
 
 const char dataPath[]   = "./record.dat";
-const char fontFile[]   = "./res/Lesson6/segoeui.ttf";
+const char fontFile[]   = "./res/font.ttf";
 SDLColor textColor      = 0xFFFFFF;
-int fontSize            = 20;
+int fontSize            = 12;
 
 enum Diretion {
     ELeft, ERight, EUp, EDown
@@ -197,7 +197,12 @@ private:
     };
 
     int score;
-    SDLTexture texMenu, texPause, texScore, texDie, texRecord;
+    SDLTexture texTitle,
+               texVersion,
+               texPause,
+               texScore,
+               texDie,
+               texRecord;
     State state;
     Diretion dir;
     Snake snake;
@@ -219,7 +224,8 @@ public:
 
     // 加载静态资源
     void loadResource() {
-        texMenu = renderer.loadText("Greedy Snake v 1.0.0", fontFile, textColor, fontSize * 2);
+        texTitle = renderer.loadText("Greedy Snake", fontFile, textColor, fontSize * 2);
+        texVersion = renderer.loadText("v1.0.0", fontFile, textColor, fontSize * 2);
         texPause = renderer.loadText("Pause", fontFile, textColor, fontSize * 2);
         texDie = renderer.loadText("You Die!", fontFile, textColor, fontSize * 2);
     }
@@ -294,7 +300,8 @@ public:
     }
 
     void drawMenu(SDLRenderer* ren) {
-        ren->drawTexture(texMenu, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, EAlignHCenter | EAlignVCenter);
+        ren->drawTexture(texTitle, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, EAlignHCenter | EAlignVCenter);
+        ren->drawTexture(texVersion, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + fontSize * 3, EAlignHCenter | EAlignVCenter);
     }
 
     void drawPause(SDLRenderer* ren) {
