@@ -1,6 +1,6 @@
 
-.sublime-workspace
-.exe
+*.sublime-workspace
+*.exe
 
 build/
 
