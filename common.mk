@@ -58,13 +58,16 @@ $(build_dir)/%.o: $(src_dir)/%.cpp
 
 $(build_dir)/%.d: $(src_dir)/%.c
 	@mkdir -p $(@D)
-	$(CC) -MM $(CPPFLAGS) $< | sed 's,\([^.]*\)\.o[ :]*,$(build_dir)/\1.o $@: ,g' > $@;
+	$(CC) -MM $(CPPFLAGS) $< | sed 's,\([^.]*\)\.o[ :]*,$(build_dir)/\1.o $@: ,g' > $@
 
 $(build_dir)/%.d: $(src_dir)/%.cpp
 	@mkdir -p $(@D)
-	$(CC) -MM $(CPPFLAGS) $< | sed 's,\([^.]*\)\.o[ :]*,$(build_dir)/\1.o $@: ,g' > $@;
+	$(CC) -MM $(CPPFLAGS) $< | sed 's,\([^.]*\)\.o[ :]*,$(build_dir)/\1.o $@: ,g' > $@
 
--include $(dependences)
+# Prevent make from generating dependencies when running 'make clean'
+ifneq ($(MAKECMDGOALS), clean)
+    -include $(dependences)
+endif
 
 run: $(firstword $(targets))
 	@./$<
