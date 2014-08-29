@@ -1,37 +1,37 @@
 # project directories
-# project_dir = $(shell pwd)
-include_dir := ./include
-src_dir     := ./src
-lib_dir     := ./lib
-build_dir   := ./build
+# project_dir  := $(shell pwd)
+include_dir    := ./include
+src_dir        := ./src
+lib_dir        := ./lib
+build_dir      := ./build
 
 # targets
-targets     := main
-targets     := $(foreach t, $(targets), $(t).exe)
-target_libs := 
-target_dlls := 
+targets        := main
+targets        := $(foreach t, $(targets), $(t).exe)
+target_libs    :=
+target_dlls    :=
 
 # compile and link flags
-INCLUDE_FLAGS := $(patsubst %,-I%,$(include_dir))
-CPPFLAGS      := $(INCLUDE_FLAGS)
-CFLAGS        := -Wall
-CXXFLAGS      := -Wall -std=c++11
-LDFLAGS       :=
-LDLIBS        :=
-LOADLIBES     := -L $(lib_dir)
+INCLUDE_FLAGS  := $(patsubst %,-I%,$(include_dir))
+CPPFLAGS       := $(INCLUDE_FLAGS)
+CFLAGS         := -Wall
+CXXFLAGS       := -Wall -std=c++11
+LDFLAGS        :=
+LDLIBS         :=
+LOADLIBES      := -L $(lib_dir)
 
 # 
-_source_dirs  = $(shell ls -xR ./src|grep :|tr -d :)
-_sources_s    = $(foreach subdir, $(_source_dirs), $(wildcard $(subdir)/*.s))
-_objects_s    = $(subst $(src_dir), $(build_dir), $(_sources_s:.s=.o))
-_sources_c    = $(foreach subdir, $(_source_dirs), $(wildcard $(subdir)/*.c))
-_objects_c    = $(subst $(src_dir), $(build_dir), $(_sources_c:.c=.o))
-_sources_cpp  = $(foreach subdir, $(_source_dirs), $(wildcard $(subdir)/*.cpp))
-_objects_cpp  = $(subst $(src_dir), $(build_dir), $(_sources_cpp:.cpp=.o))
+_source_dirs   = $(shell ls -xR $(src_dir)|grep :|tr -d :)
+_sources_s     = $(foreach subdir, $(_source_dirs), $(wildcard $(subdir)/*.s))
+_objects_s     = $(subst $(src_dir), $(build_dir), $(_sources_s:.s=.o))
+_sources_c     = $(foreach subdir, $(_source_dirs), $(wildcard $(subdir)/*.c))
+_objects_c     = $(subst $(src_dir), $(build_dir), $(_sources_c:.c=.o))
+_sources_cpp   = $(foreach subdir, $(_source_dirs), $(wildcard $(subdir)/*.cpp))
+_objects_cpp   = $(subst $(src_dir), $(build_dir), $(_sources_cpp:.cpp=.o))
 
-sources      = $(_sources_s) $(_sources_c) $(_objects_cpp)
-objects      = $(_objects_s) $(_objects_c) $(_objects_cpp)
-dependences  = $(_objects_c:.o=.d) $(_objects_cpp:.o=.d)
+sources        = $(_sources_s) $(_sources_c) $(_objects_cpp)
+objects        = $(_objects_s) $(_objects_c) $(_objects_cpp)
+dependences    = $(_objects_c:.o=.d) $(_objects_cpp:.o=.d)
 
 # phony targets
 .PHONY : all clean run
@@ -49,24 +49,30 @@ $(target_dlls): $(objects)
 	$(CC) -shared $^ $(LOADLIBES) $(LDLIBS) -o $@
 
 $(build_dir)/%.o: $(src_dir)/%.c
+	@echo 'compiling $< -> $@'
 	@mkdir -p $(@D)
-	$(CC) -c $(CPPFLAGS) $(CFLAGS) -o $@ $<
+	@$(CC) -c $(CPPFLAGS) $(CFLAGS) -o $@ $<
 
 $(build_dir)/%.o: $(src_dir)/%.cpp
+	@echo 'compiling $< -> $@'
 	@mkdir -p $(@D)
-	$(CXX) -c $(CPPFLAGS) $(CXXFLAGS) -o $@ $<
+	@$(CXX) -c $(CPPFLAGS) $(CXXFLAGS) -o $@ $<
 
 $(build_dir)/%.d: $(src_dir)/%.c
+	@echo 'generating $@'
 	@mkdir -p $(@D)
-	$(CC) -MM $(CPPFLAGS) $< | sed 's,\($*\.o\),$(build_dir)/\1 $@,g' > $@
+	@$(CC) -MM $(CPPFLAGS) $< | sed 's,\($*\.o\),$(build_dir)/\1 $@,g' > $@
 
 $(build_dir)/%.d: $(src_dir)/%.cpp
+	@echo 'generating $@'
 	@mkdir -p $(@D)
-	$(CC) -MM $(CPPFLAGS) $< | sed 's,\($*\.o\),$(build_dir)/\1 $@,g' > $@
+	@$(CC) -MM $(CPPFLAGS) $< | sed 's,\($*\.o\),$(build_dir)/\1 $@,g' > $@
 
-# Prevent make from generating dependencies when running 'make clean'
+# prevent make from generating dependencies when running 'make clean' or 'make rebuild'
 ifneq ($(MAKECMDGOALS), clean)
--include $(dependences)
+    ifneq ($(MAKECMDGOALS), rebuild)
+        -include $(dependences)
+    endif
 endif
 
 run: $(firstword $(targets))
@@ -77,5 +83,5 @@ clean:
 	$(RM) -r $(build_dir)
 
 rebuild:
-	@make clean
-	@make
+	@make clean --no-print-directory
+	@make --no-print-directory
