@@ -15,19 +15,19 @@ struct SDLRect: SDL_Rect {
     SDLRect(int x, int y, int w, int h);
 
     bool isEmpty() const;
-    bool hasIntersection(const SDLRect& rhs) const;
+    bool hasIntersection(const SDLRect &rhs) const;
 
-    SDLRect intersectRect(const SDLRect& rhs) const;
-    SDLRect unionRect(const SDLRect& rhs) const;
+    SDLRect intersectRect(const SDLRect &rhs) const;
+    SDLRect unionRect(const SDLRect &rhs) const;
 
-    bool operator==(const SDLRect& rhs) const;
+    bool operator == (const SDLRect &rhs) const;
 
-    friend std::ostream& operator<<(std::ostream& out, const SDLRect& rc);
+    friend std::ostream &operator << (std::ostream &out, const SDLRect &rc);
 };
 
-SDLRect enclosePoints(const SDLPoint* pts, int cnt);
+SDLRect enclosePoints(const SDLPoint *pts, int cnt);
 
-SDLRect enclosePoints(const SDLPoint* pts, int cnt, const SDLRect& clip);
+SDLRect enclosePoints(const SDLPoint *pts, int cnt, const SDLRect &clip);
 
 
 #endif // SDL_RECT_H

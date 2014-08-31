@@ -7,15 +7,15 @@ SDLTexture::SDLTexture() {
 
 }
 
-SDLTexture::SDLTexture(SDL_Texture* texture): tex(texture, &destroyTexture) {
+SDLTexture::SDLTexture(SDL_Texture *texture): tex(texture, &destroyTexture) {
     zlog "create texture", texture;
 }
 
-SDL_Texture* SDLTexture::get() const {
+SDL_Texture *SDLTexture::get() const {
     return tex.get();
 }
 
-bool SDLTexture::query(Uint32* format, int* access, int* w, int* h) const {
+bool SDLTexture::query(Uint32 *format, int *access, int *w, int *h) const {
     return SDL_QueryTexture(get(), format, access, w, h) == 0;
 }
 
@@ -27,7 +27,7 @@ SDLColor SDLTexture::getColorMod() const {
 void SDLTexture::setColorMod(Uint8 red, Uint8 green, Uint8 blue) {
     SDL_SetTextureColorMod(get(), red, green, blue);
 }
-void SDLTexture::setColorMod(const SDLColor& color) {
+void SDLTexture::setColorMod(const SDLColor &color) {
     setColorMod(color.r, color.g, color.b);
 }
 
@@ -49,7 +49,7 @@ void SDLTexture::setBlendMode(SDL_BlendMode blend) {
     SDL_SetTextureBlendMode(get(), blend);
 }
 
-void SDLTexture::destroyTexture(SDL_Texture* texture) {
+void SDLTexture::destroyTexture(SDL_Texture *texture) {
     zlog "destroy texture", texture;
     SDL_DestroyTexture(texture);
 }

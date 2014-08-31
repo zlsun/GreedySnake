@@ -24,11 +24,11 @@ SDLColor::SDLColor(Uint8 red, Uint8 green, Uint8 blue, Uint8 alpha) {
     a = alpha;
 }
 
-bool SDLColor::operator==(const SDL_Color &other) const {
+bool SDLColor::operator == (const SDL_Color &other) const {
     return r == other.r && g == other.g && b == other.b && a == other.a;
 }
 
-std::ostream &operator<<(std::ostream &out, const SDLColor &c) {
+std::ostream &operator << (std::ostream &out, const SDLColor &c) {
     // out << std::hex << std::setiosflags(std::ios::showbase|std::ios::uppercase);
     out << "SDLColor(" << (int)c.r << ", " << (int)c.g << ", " << (int)c.b << ", " << (int)c.a << ")";
     // out << std::dec << std::resetiosflags(std::ios::showbase|std::ios::uppercase);

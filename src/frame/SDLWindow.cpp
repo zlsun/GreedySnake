@@ -49,26 +49,26 @@ void SDLWindow::create(const std::string &title, const SDLRect &rc) {
 
 void SDLWindow::processEvent(SDL_Event *e) {
     switch (e->type) {
-    case SDL_QUIT:
-        onQuitEvent(&e->quit);
-        break;
-    case SDL_KEYDOWN:
-        onKeyDown(&e->key);
-        break;
-    case SDL_KEYUP:
-        onKeyUp(&e->key);
-        break;
-    case SDL_MOUSEMOTION:
-        onMouseMotion(&e->motion);
-        break;
-    case SDL_MOUSEBUTTONDOWN:
-        onMouseButtonDown(&e->button);
-        break;
-    case SDL_MOUSEBUTTONUP:
-        onMouseButtonUp(&e->button);
-        break;
-    default:
-        break;
+        case SDL_QUIT:
+            onQuitEvent(&e->quit);
+            break;
+        case SDL_KEYDOWN:
+            onKeyDown(&e->key);
+            break;
+        case SDL_KEYUP:
+            onKeyUp(&e->key);
+            break;
+        case SDL_MOUSEMOTION:
+            onMouseMotion(&e->motion);
+            break;
+        case SDL_MOUSEBUTTONDOWN:
+            onMouseButtonDown(&e->button);
+            break;
+        case SDL_MOUSEBUTTONUP:
+            onMouseButtonUp(&e->button);
+            break;
+        default:
+            break;
     }
 }
 

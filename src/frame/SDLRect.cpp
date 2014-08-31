@@ -25,11 +25,11 @@ bool SDLRect::isEmpty() const {
     return (w <= 0) || (h <= 0);
 }
 
-bool SDLRect::hasIntersection(const SDLRect& rhs) const {
+bool SDLRect::hasIntersection(const SDLRect &rhs) const {
     return SDL_HasIntersection(this, &rhs);
 }
 
-SDLRect SDLRect::intersectRect(const SDLRect& rhs) const {
+SDLRect SDLRect::intersectRect(const SDLRect &rhs) const {
     SDLRect result;
     if (SDL_IntersectRect(this, &rhs, &result)) {
         return result;
@@ -38,22 +38,22 @@ SDLRect SDLRect::intersectRect(const SDLRect& rhs) const {
     }
 }
 
-SDLRect SDLRect::unionRect(const SDLRect& rhs) const {
+SDLRect SDLRect::unionRect(const SDLRect &rhs) const {
     SDLRect result;
     SDL_UnionRect(this, &rhs, &result);
     return result;
 }
 
-bool SDLRect::operator==(const SDLRect& rhs) const {
+bool SDLRect::operator == (const SDLRect &rhs) const {
     return (x == rhs.x) && (y == rhs.y) && (w == rhs.w) && (h == rhs.h);
 }
 
-std::ostream& operator<<(std::ostream& out, const SDLRect& rc) {
+std::ostream &operator << (std::ostream &out, const SDLRect &rc) {
     out << "SDLRect(" << rc.x << ", " << rc.y << ", " << rc.w << ", " << rc.h << ")";
     return out;
 }
 
-SDLRect enclosePoints(const SDLPoint* pts, int cnt) {
+SDLRect enclosePoints(const SDLPoint *pts, int cnt) {
     SDLRect result;
     if (SDL_EnclosePoints(pts, cnt, NULL, &result)) {
         return result;
@@ -62,7 +62,7 @@ SDLRect enclosePoints(const SDLPoint* pts, int cnt) {
     }
 }
 
-SDLRect enclosePoints(const SDLPoint* pts, int cnt, const SDLRect& clip) {
+SDLRect enclosePoints(const SDLPoint *pts, int cnt, const SDLRect &clip) {
     SDLRect result;
     if (SDL_EnclosePoints(pts, cnt, &clip, &result)) {
         return result;
