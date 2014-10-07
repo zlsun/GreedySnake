@@ -1,5 +1,5 @@
 
-*.sublime-workspace
+*.sublime-*
 *.exe
 *.dat
 
