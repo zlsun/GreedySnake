@@ -70,7 +70,7 @@ SDLTexture SDLRenderer::loadText(const std::string& message, const std::string& 
     // Render the message to an SDL_Surface, as that's what TTF_RenderText_X returns
     SDL_Surface* surf = TTF_RenderText_Blended(font, message.c_str(), color);
     SDL_Texture* tex = SDL_CreateTextureFromSurface(ren, surf);
-    // Clean up unneeded stuff
+    // Clean up needless stuffs
     SDL_FreeSurface(surf);
     TTF_CloseFont(font);
     return SDLTexture(tex);

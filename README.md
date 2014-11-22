@@ -1,3 +1,3 @@
 GreedySnake
 ===================
-A simple game Written with SDL2.
+A simple game written with SDL2.
