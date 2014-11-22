@@ -12,9 +12,9 @@ struct SDLColor: SDL_Color {
     SDLColor(Uint32 color);
     SDLColor(Uint8 red, Uint8 green, Uint8 blue, Uint8 alpha = 0xFF);
 
-    bool operator == (const SDL_Color &other) const;
+    bool operator == (const SDL_Color& other) const;
 
-    friend std::ostream &operator << (std::ostream &out, const SDLColor &c);
+    friend std::ostream& operator << (std::ostream& out, const SDLColor& c);
 };
 
 

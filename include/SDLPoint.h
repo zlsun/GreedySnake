@@ -11,7 +11,7 @@ struct SDLPoint: SDL_Point {
     SDLPoint();
     SDLPoint(int x, int y);
 
-    friend std::ostream &operator << (std::ostream &out, const SDLPoint &pt);
+    friend std::ostream& operator << (std::ostream& out, const SDLPoint& pt);
 };
 
 

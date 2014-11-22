@@ -12,7 +12,7 @@ SDLPoint::SDLPoint(int _x, int _y) {
     y = _y;
 }
 
-std::ostream &operator << (std::ostream &out, const SDLPoint &pt) {
+std::ostream& operator << (std::ostream& out, const SDLPoint& pt) {
     out << "SDLPoint(" << pt.x << ", " << pt.y << ")";
     return out;
 }

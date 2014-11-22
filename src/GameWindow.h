@@ -154,7 +154,7 @@ public:
     std::string path;
     int record;
 
-    Database(const std::string &path): path(path) {}
+    Database(const std::string& path): path(path) {}
 
     // 创建文件
     void create() {
@@ -275,7 +275,7 @@ public:
         } while (snake.contain(food));
     }
 
-    void drawSnake(SDLRenderer *ren) {
+    void drawSnake(SDLRenderer* ren) {
         ren->setDrawColor(0x00, 0xFF, 0x00);
         SDLRect rc(0, 0, BLOCK_SIZE, BLOCK_SIZE);
         for (auto b : snake.blocks) {
@@ -285,40 +285,40 @@ public:
         }
     }
 
-    void drawFood(SDLRenderer *ren) {
+    void drawFood(SDLRenderer* ren) {
         ren->setDrawColor(0xFF, 0x00, 0x00);
         SDLRect rc(food.x * BLOCK_SIZE, food.y * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
         ren->fillRect(rc);
     }
 
-    void drawScore(SDLRenderer *ren) {
+    void drawScore(SDLRenderer* ren) {
         ren->drawTexture(texScore, 0, 0);
     }
 
-    void drawRecord(SDLRenderer *ren) {
+    void drawRecord(SDLRenderer* ren) {
         ren->drawTexture(texRecord, SCREEN_WIDTH, 0, EAlignRight | EAlignTop);
     }
 
-    void drawMenu(SDLRenderer *ren) {
+    void drawMenu(SDLRenderer* ren) {
         ren->drawTexture(texTitle, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, EAlignHCenter | EAlignVCenter);
         ren->drawTexture(texVersion, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + fontSize * 3, EAlignHCenter | EAlignVCenter);
     }
 
-    void drawPause(SDLRenderer *ren) {
+    void drawPause(SDLRenderer* ren) {
         ren->drawTexture(texPause, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, EAlignHCenter | EAlignVCenter);
     }
 
-    void drawDie(SDLRenderer *ren) {
+    void drawDie(SDLRenderer* ren) {
         ren->drawTexture(texDie, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, EAlignHCenter | EAlignVCenter);
     }
 
-    void drawNewRecord(SDLRenderer *ren) {
+    void drawNewRecord(SDLRenderer* ren) {
         std::ostringstream str;
         str << "New Record: " << db.record;
         ren->drawText(str.str(), fontFile, textColor, fontSize * 2, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, EAlignHCenter | EAlignVCenter);
     }
 
-    void onKeyDown(SDL_KeyboardEvent *key) {
+    void onKeyDown(SDL_KeyboardEvent* key) {
         if (state == EMenu) {
             switch (key->keysym.sym) {
                 case SDLK_SPACE:
@@ -382,14 +382,14 @@ public:
         }
     }
 
-    void onMouseButtonDown(SDL_MouseButtonEvent *button) {
+    void onMouseButtonDown(SDL_MouseButtonEvent* button) {
     }
 
-    void onQuitEvent(SDL_QuitEvent *quit_event) {
+    void onQuitEvent(SDL_QuitEvent* quit_event) {
         quit();
     }
 
-    void onPaint(SDLRenderer *ren) {
+    void onPaint(SDLRenderer* ren) {
         ren->clear(0x000000);
         if (state == EMenu) {
             drawMenu(ren);

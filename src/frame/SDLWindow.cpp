@@ -36,7 +36,7 @@ void SDLWindow::quitSDL() {
     SDL_Quit();
 }
 
-void SDLWindow::create(const std::string &title, const SDLRect &rc) {
+void SDLWindow::create(const std::string& title, const SDLRect& rc) {
     zlog "SDLWindow::create";
     rect = rc;
     wnd = SDL_CreateWindow(title.c_str(), rc.x, rc.y, rc.w, rc.h, SDL_WINDOW_SHOWN);
@@ -47,7 +47,7 @@ void SDLWindow::create(const std::string &title, const SDLRect &rc) {
     onCreate();
 }
 
-void SDLWindow::processEvent(SDL_Event *e) {
+void SDLWindow::processEvent(SDL_Event* e) {
     switch (e->type) {
         case SDL_QUIT:
             onQuitEvent(&e->quit);
@@ -108,13 +108,13 @@ void SDLWindow::setTimeout(int tm) {
     timeout = tm;
 }
 
-void SDLWindow::onKeyDown(SDL_KeyboardEvent *key) {}
-void SDLWindow::onKeyUp(SDL_KeyboardEvent *key) {}
-void SDLWindow::onMouseMotion(SDL_MouseMotionEvent *motion) {}
-void SDLWindow::onMouseButtonDown(SDL_MouseButtonEvent *button) {}
-void SDLWindow::onMouseButtonUp(SDL_MouseButtonEvent *button) {}
-void SDLWindow::onPaint(SDLRenderer *renderer) {}
-void SDLWindow::onQuitEvent(SDL_QuitEvent *quit) {}
+void SDLWindow::onKeyDown(SDL_KeyboardEvent* key) {}
+void SDLWindow::onKeyUp(SDL_KeyboardEvent* key) {}
+void SDLWindow::onMouseMotion(SDL_MouseMotionEvent* motion) {}
+void SDLWindow::onMouseButtonDown(SDL_MouseButtonEvent* button) {}
+void SDLWindow::onMouseButtonUp(SDL_MouseButtonEvent* button) {}
+void SDLWindow::onPaint(SDLRenderer* renderer) {}
+void SDLWindow::onQuitEvent(SDL_QuitEvent* quit) {}
 
 void SDLWindow::onCreate() {}
 void SDLWindow::onClose() {}
